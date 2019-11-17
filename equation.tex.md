@@ -1,0 +1,26 @@
+$$A_N=(1+fg)^W(1+fl)^L A_0$$
+$W:\;number\;of\;wins$
+$L:\;number\;of\;losses$
+$N:\;number\;of\;trades\;(W+L=N)$
+$p={W\over N}:\;probability\;of\;winning$
+$q={L\over N}:\;probability\;of\;losing$
+$A_N:\;account\;balance\;after\;N\;trades$
+$A_0:\;initial\;account\;balance$
+$g:\;\%gain\;(g>0)$
+$l:\;\%loss\;(l<0)$
+$f:\;optimal\;fraction$
+$G:\;average\;growth\;rate$
+
+$${A_N\over A_0}=(1+fg)^W (1+fl)^L$$
+$$\log{A_N\over A_0}=W\log{⁡(1+fg)}+L\log⁡{(1+fl)}$$
+$$\lim_{N\to∞}{1\over N}\log{A_N\over A_0}=\lim_{N\to∞}[{W\over N}⁡⁡\log⁡(1+fg)+{L\over N}\log⁡(1+fl)]$$
+$$\lim_{N\to∞}{1\over N}\log{A_N\over A_0}=p\log⁡(1+fg)+q\log⁡(1+fl)$$
+$$G=\lim_{N\to∞}{1\over N}\log{A_N\over A_0},maximize\;G$$
+$$G=p\log⁡(1+fg)+q\log⁡(1+fl)$$
+$$G'={gp\over 1+fg}+{lq\over1+fl}=0$$
+$$gp(1+fl)+lq(1+fg)=0$$
+$$gp+fglp+lq+fglq=0$$
+$$(gp+lq)+fgl(p+q)=0$$
+$$p+q=1$$
+$$f=-{gp+lq\over gl}$$
+$$\therefore f={p\over -l}-{q\over g}$$
