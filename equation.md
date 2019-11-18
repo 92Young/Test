@@ -1,7 +1,7 @@
 ![enter image description here](http://latex.codecogs.com/svg.latex?x=%5Cfrac%7B-b%5Cpm%5Csqrt%7Bb%5E2-4ac%7D%7D%7B2a%7D)
 <script type="text/javascript" src="http://latex.codecogs.com/latexit.js"></script>
 ```math
-A_N=(1+fg)^W(1+fl)^LA_0)
+$$A_N=(1+fg)^W(1+fl)^LA_0)$$
 ```
 
 ```math
