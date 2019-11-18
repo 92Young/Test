@@ -5,7 +5,7 @@ $$A_N=(1+fg)^W(1+fl)^LA_0)$$
 ```
 
 ```math
-SE = \frac{\sigma}{\sqrt{n}}
+$$SE = \frac{\sigma}{\sqrt{n}}$$
 ```
 $$A_N=(1+fg)^W(1+fl)^L A_0$$
 $W:\;number\;of\;wins$
